@@ -1,7 +1,17 @@
-# Rutify
-Plataforma fitness para crear, gestionar y solicitar programas y rutinas de entrenamiento.📊Profesionaliza tu gimnasio y comunicacion con tus alumnos. 🏋️‍♂️Optimiza tus entrenamientos y progreso.
-Sistema de Gestión de Gimnasios y Entrenamiento Personal
-Un sistema completo de gestión de gimnasios, entrenadores personales y estudiantes con funcionalidades avanzadas de seguimiento de entrenamientos, importación de rutinas y gestión de suscripciones.
+# <img width="32" height="32" alt="android-chrome-512x512" src="https://github.com/user-attachments/assets/3b5a3c0b-db60-428a-8806-6d2c2b487e08" />  Rutify 
+Plataforma fitness para crear, gestionar y solicitar programas y rutinas de entrenamiento.
+📊Profesionaliza tu gimnasio y comunicacion con tus alumnos. 
+🏋️‍♂️Optimiza tus entrenamientos y progreso.
+
+🌐 Web: rutify.com.ar
+📷 Instagram: @rutify.app
+
+
+🐦 X/Twitter: @rutifyapp
+📩 Soporte: rutifyapp@gmail.com
+
+## ¿Qué es Rutify?
+Rutify es un sistema de gestión para gimnasios, entrenadores personales y usuarios independientes, diseñado para optimizar entrenamientos, seguimiento de progreso y comunicación entre profesionales y alumnos.
 
 ## Tabla de Contenidos
 - [Características Principales](#-características-principales)
@@ -242,7 +252,5 @@ Un sistema completo de gestión de gimnasios, entrenadores personales y estudian
 Licencia
 Este proyecto está bajo la Licencia MIT. Ver LICENSE para más detalles.
 
-Soporte
-Email: rutifyapp@gmail.com
-Instagram: https://www.instagram.com/rutify.app/
-X:https://x.com/rutifyapp
+© Rutify – Todos los derechos reservados.
+Este repositorio es solo informativo. El código fuente es privado.
